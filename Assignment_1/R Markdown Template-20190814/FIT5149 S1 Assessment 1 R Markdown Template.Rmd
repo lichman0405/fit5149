@@ -1,0 +1,70 @@
+---
+title: 'FIT5149 S1 2009 Assessment 1: Choosing and Explaining Likely Caravan Insurance
+  Customers'
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+  pdf_document:
+    highlight: tango
+    includes:
+      in_header: styles.sty
+    keep_tex: yes
+    number_sections: yes
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, echo=FALSE}
+#put all the r libraries used in the submission here
+library(MASS)
+library(ISLR)
+```
+
+\section*{Author information}
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{L{2.5cm}|L{8.5cm}}
+ Family Name & \\\hline
+ Given Name & \\\hline
+ Student ID & \\\hline
+ Student Email & \\
+\end{tabular}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\newpage
+\section{Introduction}
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+\section{Data Exploration}
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+\section{Model Development}
+
+\section{Model Comparison}
+
+\section{Variable Identification and Explanation}
+
+\section{Conclusion}
+
+\section{References}
+
